@@ -87,7 +87,3 @@ On the client, every time the returned component is (un)mounted or its props cha
 On the server, `handleStateChangeOnClient` will not be called. You will still be able to call the static `rewind()` method on the returned component class to retrieve the current state after a `renderToString()` call. If you forget to call `rewind()` right after `renderToString()`, the internal instance stack will keep growing, resulting in a memory leak and incorrect information. You must call `rewind()` after every `renderToString()` call on the server.
 
 For testing, you may use a static `peek()` method available on the returned component. It lets you get the current state without resetting the mounted instance stack. Don’t use it for anything other than testing.
-
-## Usage
-
-Here's how to implement [Rax Document Title](https://github.com/qddegtya/rax-document-title) (both client(weex & web) and server side) using Rax Side Effect
