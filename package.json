@@ -1,6 +1,6 @@
 {
   "name": "rax-side-effect",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create components whose nested prop changes map to a global side effect（Rax）",
   "main": "index.js",
   "scripts": {
