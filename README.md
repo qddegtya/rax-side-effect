@@ -13,7 +13,7 @@ $ npm install --save rax-side-effect
 ## Use Cases
 
 
-* Setting weex-module or windvane container title;
+* Setting weex-module or other container title;
 * Setting `document.style.overflow` or background color depending on current screen;
 * Firing Flux actions using declarative API depending on current screen;
 * Some crazy stuff I haven't thought about.
@@ -90,4 +90,4 @@ For testing, you may use a static `peek()` method available on the returned comp
 
 ## Usage
 
-Here's how to implement [Rax Document Title]() (both client(weex & web) and server side) using Rax Side Effect
+Here's how to implement [Rax Document Title](https://github.com/qddegtya/rax-document-title) (both client(weex & web) and server side) using Rax Side Effect

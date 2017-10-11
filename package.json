@@ -1,13 +1,13 @@
 {
   "name": "rax-side-effect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create components whose nested prop changes map to a global side effect（Rax）",
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
     "test": "jest --notify",
     "clean": "rimraf lib",
-    "prepublish": "npm test && npm run clean && npm run build"
+    "prepublish": "npm run clean && npm run build && npm run test"
   },
   "keywords": [
     "weex",
