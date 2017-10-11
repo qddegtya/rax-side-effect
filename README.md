@@ -78,7 +78,7 @@ On the server, you’ll be able to call `BodyStyle.peek()` to get the current st
 
 ## API
 
-#### `withSideEffect: (reducePropsToState, handleStateChangeOnClient, [mapStateOnServer]) -> RxComponent -> RxComponent`
+#### `withSideEffect: (reducePropsToState, handleStateChangeOnClient, [mapStateOnServer]) -> RaxComponent -> RaxComponent`
 
 A [higher-order component](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750) that, when mounting, unmounting or receiving new props, calls `reducePropsToState` with `props` of **each mounted instance**. It is up to you to return some state aggregated from these props.
 
