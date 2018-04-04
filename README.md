@@ -1,4 +1,4 @@
-# Rax Side Effect [![Downloads](https://img.shields.io/npm/dm/rax-side-effect.svg)](https://npmjs.com/rax-side-effect) [![npm version](https://img.shields.io/npm/v/rax-side-effect.svg?style=flat)](https://www.npmjs.com/package/rax-side-effect)
+# Rax Side Effect
 
 Inspired by [react-side-effect](https://github.com/gaearon/react-side-effect)
 
